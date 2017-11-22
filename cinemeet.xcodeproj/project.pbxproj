@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0758B3A71FC5DF0100A7EC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0758B3A61FC5DF0100A7EC92 /* AppDelegate.swift */; };
+		0758B3A91FC5DF0100A7EC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0758B3A81FC5DF0100A7EC92 /* ViewController.swift */; };
+		0758B3AC1FC5DF0100A7EC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0758B3AA1FC5DF0100A7EC92 /* Main.storyboard */; };
+		0758B3AE1FC5DF0100A7EC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0758B3AD1FC5DF0100A7EC92 /* Assets.xcassets */; };
+		0758B3B11FC5DF0100A7EC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0758B3AF1FC5DF0100A7EC92 /* LaunchScreen.storyboard */; };
+		0758B3BC1FC5DF0200A7EC92 /* cinemeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0758B3BB1FC5DF0200A7EC92 /* cinemeetTests.swift */; };
+		0758B3C71FC5DF0200A7EC92 /* cinemeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0758B3C61FC5DF0200A7EC92 /* cinemeetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0758B3B81FC5DF0200A7EC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0758B39B1FC5DF0100A7EC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0758B3A21FC5DF0100A7EC92;
+			remoteInfo = cinemeet;
+		};
+		0758B3C31FC5DF0200A7EC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0758B39B1FC5DF0100A7EC92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0758B3A21FC5DF0100A7EC92;
+			remoteInfo = cinemeet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0758B3A31FC5DF0100A7EC92 /* cinemeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cinemeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0758B3A61FC5DF0100A7EC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0758B3A81FC5DF0100A7EC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0758B3AB1FC5DF0100A7EC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0758B3AD1FC5DF0100A7EC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0758B3B01FC5DF0100A7EC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0758B3B21FC5DF0100A7EC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0758B3B71FC5DF0100A7EC92 /* cinemeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinemeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0758B3BB1FC5DF0200A7EC92 /* cinemeetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinemeetTests.swift; sourceTree = "<group>"; };
+		0758B3BD1FC5DF0200A7EC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0758B3C21FC5DF0200A7EC92 /* cinemeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cinemeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0758B3C61FC5DF0200A7EC92 /* cinemeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinemeetUITests.swift; sourceTree = "<group>"; };
+		0758B3C81FC5DF0200A7EC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0758B3A01FC5DF0100A7EC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3B41FC5DF0100A7EC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3BF1FC5DF0200A7EC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0758B39A1FC5DF0100A7EC92 = {
+			isa = PBXGroup;
+			children = (
+				0758B3A51FC5DF0100A7EC92 /* cinemeet */,
+				0758B3BA1FC5DF0200A7EC92 /* cinemeetTests */,
+				0758B3C51FC5DF0200A7EC92 /* cinemeetUITests */,
+				0758B3A41FC5DF0100A7EC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0758B3A41FC5DF0100A7EC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0758B3A31FC5DF0100A7EC92 /* cinemeet.app */,
+				0758B3B71FC5DF0100A7EC92 /* cinemeetTests.xctest */,
+				0758B3C21FC5DF0200A7EC92 /* cinemeetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0758B3A51FC5DF0100A7EC92 /* cinemeet */ = {
+			isa = PBXGroup;
+			children = (
+				0758B3A61FC5DF0100A7EC92 /* AppDelegate.swift */,
+				0758B3A81FC5DF0100A7EC92 /* ViewController.swift */,
+				0758B3AA1FC5DF0100A7EC92 /* Main.storyboard */,
+				0758B3AD1FC5DF0100A7EC92 /* Assets.xcassets */,
+				0758B3AF1FC5DF0100A7EC92 /* LaunchScreen.storyboard */,
+				0758B3B21FC5DF0100A7EC92 /* Info.plist */,
+			);
+			path = cinemeet;
+			sourceTree = "<group>";
+		};
+		0758B3BA1FC5DF0200A7EC92 /* cinemeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				0758B3BB1FC5DF0200A7EC92 /* cinemeetTests.swift */,
+				0758B3BD1FC5DF0200A7EC92 /* Info.plist */,
+			);
+			path = cinemeetTests;
+			sourceTree = "<group>";
+		};
+		0758B3C51FC5DF0200A7EC92 /* cinemeetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0758B3C61FC5DF0200A7EC92 /* cinemeetUITests.swift */,
+				0758B3C81FC5DF0200A7EC92 /* Info.plist */,
+			);
+			path = cinemeetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0758B3A21FC5DF0100A7EC92 /* cinemeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0758B3CB1FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeet" */;
+			buildPhases = (
+				0758B39F1FC5DF0100A7EC92 /* Sources */,
+				0758B3A01FC5DF0100A7EC92 /* Frameworks */,
+				0758B3A11FC5DF0100A7EC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cinemeet;
+			productName = cinemeet;
+			productReference = 0758B3A31FC5DF0100A7EC92 /* cinemeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0758B3B61FC5DF0100A7EC92 /* cinemeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0758B3CE1FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeetTests" */;
+			buildPhases = (
+				0758B3B31FC5DF0100A7EC92 /* Sources */,
+				0758B3B41FC5DF0100A7EC92 /* Frameworks */,
+				0758B3B51FC5DF0100A7EC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0758B3B91FC5DF0200A7EC92 /* PBXTargetDependency */,
+			);
+			name = cinemeetTests;
+			productName = cinemeetTests;
+			productReference = 0758B3B71FC5DF0100A7EC92 /* cinemeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0758B3C11FC5DF0200A7EC92 /* cinemeetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0758B3D11FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeetUITests" */;
+			buildPhases = (
+				0758B3BE1FC5DF0200A7EC92 /* Sources */,
+				0758B3BF1FC5DF0200A7EC92 /* Frameworks */,
+				0758B3C01FC5DF0200A7EC92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0758B3C41FC5DF0200A7EC92 /* PBXTargetDependency */,
+			);
+			name = cinemeetUITests;
+			productName = cinemeetUITests;
+			productReference = 0758B3C21FC5DF0200A7EC92 /* cinemeetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0758B39B1FC5DF0100A7EC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = PAC;
+				TargetAttributes = {
+					0758B3A21FC5DF0100A7EC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0758B3B61FC5DF0100A7EC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0758B3A21FC5DF0100A7EC92;
+					};
+					0758B3C11FC5DF0200A7EC92 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0758B3A21FC5DF0100A7EC92;
+					};
+				};
+			};
+			buildConfigurationList = 0758B39E1FC5DF0100A7EC92 /* Build configuration list for PBXProject "cinemeet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0758B39A1FC5DF0100A7EC92;
+			productRefGroup = 0758B3A41FC5DF0100A7EC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0758B3A21FC5DF0100A7EC92 /* cinemeet */,
+				0758B3B61FC5DF0100A7EC92 /* cinemeetTests */,
+				0758B3C11FC5DF0200A7EC92 /* cinemeetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0758B3A11FC5DF0100A7EC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758B3B11FC5DF0100A7EC92 /* LaunchScreen.storyboard in Resources */,
+				0758B3AE1FC5DF0100A7EC92 /* Assets.xcassets in Resources */,
+				0758B3AC1FC5DF0100A7EC92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3B51FC5DF0100A7EC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3C01FC5DF0200A7EC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0758B39F1FC5DF0100A7EC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758B3A91FC5DF0100A7EC92 /* ViewController.swift in Sources */,
+				0758B3A71FC5DF0100A7EC92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3B31FC5DF0100A7EC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758B3BC1FC5DF0200A7EC92 /* cinemeetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0758B3BE1FC5DF0200A7EC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0758B3C71FC5DF0200A7EC92 /* cinemeetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0758B3B91FC5DF0200A7EC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0758B3A21FC5DF0100A7EC92 /* cinemeet */;
+			targetProxy = 0758B3B81FC5DF0200A7EC92 /* PBXContainerItemProxy */;
+		};
+		0758B3C41FC5DF0200A7EC92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0758B3A21FC5DF0100A7EC92 /* cinemeet */;
+			targetProxy = 0758B3C31FC5DF0200A7EC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0758B3AA1FC5DF0100A7EC92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0758B3AB1FC5DF0100A7EC92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0758B3AF1FC5DF0100A7EC92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0758B3B01FC5DF0100A7EC92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0758B3C91FC5DF0200A7EC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0758B3CA1FC5DF0200A7EC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0758B3CC1FC5DF0200A7EC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cinemeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0758B3CD1FC5DF0200A7EC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cinemeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0758B3CF1FC5DF0200A7EC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cinemeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinemeet.app/cinemeet";
+			};
+			name = Debug;
+		};
+		0758B3D01FC5DF0200A7EC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cinemeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cinemeet.app/cinemeet";
+			};
+			name = Release;
+		};
+		0758B3D21FC5DF0200A7EC92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cinemeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cinemeet;
+			};
+			name = Debug;
+		};
+		0758B3D31FC5DF0200A7EC92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = cinemeetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meet.cinemeetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = cinemeet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0758B39E1FC5DF0100A7EC92 /* Build configuration list for PBXProject "cinemeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758B3C91FC5DF0200A7EC92 /* Debug */,
+				0758B3CA1FC5DF0200A7EC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0758B3CB1FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758B3CC1FC5DF0200A7EC92 /* Debug */,
+				0758B3CD1FC5DF0200A7EC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0758B3CE1FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758B3CF1FC5DF0200A7EC92 /* Debug */,
+				0758B3D01FC5DF0200A7EC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0758B3D11FC5DF0200A7EC92 /* Build configuration list for PBXNativeTarget "cinemeetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0758B3D21FC5DF0200A7EC92 /* Debug */,
+				0758B3D31FC5DF0200A7EC92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0758B39B1FC5DF0100A7EC92 /* Project object */;
+}
